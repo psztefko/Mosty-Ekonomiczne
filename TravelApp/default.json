@@ -1,0 +1,5 @@
+{
+    "name": "INT",
+    "serverUrlProtocol": "https",
+    "serverUrlHost": "api.themoviedb.org/3",
+}

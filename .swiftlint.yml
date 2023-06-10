@@ -1,5 +1,5 @@
 included:
-  - SwiftUITemplate
+  - TravelApp
 
 disabled_rules: # rule identifiers turned on by default to exclude from running
   - multiple_closures_with_trailing_closure
@@ -27,6 +27,12 @@ type_name:
   max_length: # warning and error
     warning: 40
     error: 50
+    
+excluded:
+  - Pods
+  - Templates
+  - TravelApp*/*.generated.swift
+  - rename.swift
 
 identifier_name:
   min_length: 2 # only warning

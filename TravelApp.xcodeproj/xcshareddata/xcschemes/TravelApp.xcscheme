@@ -15,9 +15,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "3DD5307929D871F200853761"
-                     BuildableName = "SwiftUITemplate.app"
-                     BlueprintName = "SwiftUITemplate"
-                     ReferencedContainer = "container:SwiftUITemplate.xcodeproj">
+                     BuildableName = "TravelApp.app"
+                     BlueprintName = "TravelApp"
+                     ReferencedContainer = "container:TravelApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DD5307929D871F200853761"
-               BuildableName = "SwiftUITemplate.app"
-               BlueprintName = "SwiftUITemplate"
-               ReferencedContainer = "container:SwiftUITemplate.xcodeproj">
+               BuildableName = "TravelApp.app"
+               BlueprintName = "TravelApp"
+               ReferencedContainer = "container:TravelApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -52,9 +52,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DD5308929D871F300853761"
-               BuildableName = "SwiftUITemplateTests.xctest"
-               BlueprintName = "SwiftUITemplateTests"
-               ReferencedContainer = "container:SwiftUITemplate.xcodeproj">
+               BuildableName = "TravelAppTests.xctest"
+               BlueprintName = "TravelAppTests"
+               ReferencedContainer = "container:TravelApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -63,9 +63,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3DD5309329D871F300853761"
-               BuildableName = "SwiftUITemplateUITests.xctest"
-               BlueprintName = "SwiftUITemplateUITests"
-               ReferencedContainer = "container:SwiftUITemplate.xcodeproj">
+               BuildableName = "TravelAppUITests.xctest"
+               BlueprintName = "TravelAppUITests"
+               ReferencedContainer = "container:TravelApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -85,11 +85,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DD5307929D871F200853761"
-            BuildableName = "SwiftUITemplate.app"
-            BlueprintName = "SwiftUITemplate"
-            ReferencedContainer = "container:SwiftUITemplate.xcodeproj">
+            BuildableName = "TravelApp.app"
+            BlueprintName = "TravelApp"
+            ReferencedContainer = "container:TravelApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "--package-path /path/to/your/package"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -102,9 +108,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3DD5307929D871F200853761"
-            BuildableName = "SwiftUITemplate.app"
-            BlueprintName = "SwiftUITemplate"
-            ReferencedContainer = "container:SwiftUITemplate.xcodeproj">
+            BuildableName = "TravelApp.app"
+            BlueprintName = "TravelApp"
+            ReferencedContainer = "container:TravelApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
