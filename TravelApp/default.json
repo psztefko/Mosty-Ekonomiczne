@@ -1,5 +1,5 @@
 {
-    "name": "INT",
-    "serverUrlProtocol": "https",
-    "serverUrlHost": "api.themoviedb.org/3",
+    "name": "LOCAL",
+    "serverUrlProtocol": "http",
+    "serverUrlHost": "127.0.0.1:3000",
 }

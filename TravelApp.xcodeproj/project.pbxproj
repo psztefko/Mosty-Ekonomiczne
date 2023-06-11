@@ -14,6 +14,17 @@
 		3D4F28D22A349ED30081F9C4 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28D12A349ED30081F9C4 /* AppErrors.swift */; };
 		3D4F28D42A349F0A0081F9C4 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28D32A349F0A0081F9C4 /* HttpMethod.swift */; };
 		3D4F28D62A349F6E0081F9C4 /* APIVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28D52A349F6E0081F9C4 /* APIVersion.swift */; };
+		3D4F28DB2A34B8B00081F9C4 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28DA2A34B8B00081F9C4 /* Logger.swift */; };
+		3D4F28DD2A34B8F30081F9C4 /* LoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28DC2A34B8F30081F9C4 /* LoggerLevel.swift */; };
+		3D4F28DF2A34B9180081F9C4 /* LoggerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28DE2A34B9180081F9C4 /* LoggerModule.swift */; };
+		3D4F28E12A34BA380081F9C4 /* LoggerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E02A34BA380081F9C4 /* LoggerItem.swift */; };
+		3D4F28E32A34BA6B0081F9C4 /* DateFormatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E22A34BA6B0081F9C4 /* DateFormatManager.swift */; };
+		3D4F28E52A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E42A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift */; };
+		3D4F28E82A34BC890081F9C4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E72A34BC890081F9C4 /* Array+Extension.swift */; };
+		3D4F28EC2A34BEB60081F9C4 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28EA2A34BEB60081F9C4 /* Strings.swift */; };
+		3D4F28ED2A34BEB60081F9C4 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28EB2A34BEB60081F9C4 /* Assets.swift */; };
+		3D4F28EF2A34BED10081F9C4 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28EE2A34BED10081F9C4 /* Icons.swift */; };
+		3D4F28F22A35119C0081F9C4 /* Data+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28F12A35119C0081F9C4 /* Data+JSON.swift */; };
 		3DC349F32A34909A005C235A /* Assets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3DC349F12A34909A005C235A /* Assets.stencil */; };
 		3DC349F42A34909A005C235A /* Strings.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3DC349F22A34909A005C235A /* Strings.stencil */; };
 		3DC349FB2A349305005C235A /* BaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC349FA2A349305005C235A /* BaseNetworking.swift */; };
@@ -67,6 +78,17 @@
 		3D4F28D12A349ED30081F9C4 /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
 		3D4F28D32A349F0A0081F9C4 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		3D4F28D52A349F6E0081F9C4 /* APIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIVersion.swift; sourceTree = "<group>"; };
+		3D4F28DA2A34B8B00081F9C4 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3D4F28DC2A34B8F30081F9C4 /* LoggerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerLevel.swift; sourceTree = "<group>"; };
+		3D4F28DE2A34B9180081F9C4 /* LoggerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerModule.swift; sourceTree = "<group>"; };
+		3D4F28E02A34BA380081F9C4 /* LoggerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerItem.swift; sourceTree = "<group>"; };
+		3D4F28E22A34BA6B0081F9C4 /* DateFormatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatManager.swift; sourceTree = "<group>"; };
+		3D4F28E42A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerConsoleItemConsumer.swift; sourceTree = "<group>"; };
+		3D4F28E72A34BC890081F9C4 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		3D4F28EA2A34BEB60081F9C4 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		3D4F28EB2A34BEB60081F9C4 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		3D4F28EE2A34BED10081F9C4 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		3D4F28F12A35119C0081F9C4 /* Data+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSON.swift"; sourceTree = "<group>"; };
 		3DC349F12A34909A005C235A /* Assets.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assets.stencil; sourceTree = "<group>"; };
 		3DC349F22A34909A005C235A /* Strings.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Strings.stencil; sourceTree = "<group>"; };
 		3DC349FA2A349305005C235A /* BaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworking.swift; sourceTree = "<group>"; };
@@ -130,9 +152,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4F28D92A34B8A30081F9C4 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F28DA2A34B8B00081F9C4 /* Logger.swift */,
+				3D4F28DC2A34B8F30081F9C4 /* LoggerLevel.swift */,
+				3D4F28DE2A34B9180081F9C4 /* LoggerModule.swift */,
+				3D4F28E02A34BA380081F9C4 /* LoggerItem.swift */,
+				3D4F28E22A34BA6B0081F9C4 /* DateFormatManager.swift */,
+				3D4F28E42A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		3D4F28E62A34BC7B0081F9C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F28F02A3511890081F9C4 /* Foundation */,
+				3D4F28E72A34BC890081F9C4 /* Array+Extension.swift */,
+				3D4F28F12A35119C0081F9C4 /* Data+JSON.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D4F28E92A34BEB60081F9C4 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F28EA2A34BEB60081F9C4 /* Strings.swift */,
+				3D4F28EB2A34BEB60081F9C4 /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		3D4F28F02A3511890081F9C4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		3DC349EF2A34909A005C235A /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
+				3D4F28E92A34BEB60081F9C4 /* Generated */,
 				3DC349F02A34909A005C235A /* Templates */,
 			);
 			path = SwiftGen;
@@ -165,8 +227,10 @@
 		3DC349F82A3491EE005C235A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3D4F28D92A34B8A30081F9C4 /* Logger */,
 				3DC34A042A3493CB005C235A /* LocalStorage */,
 				3DC34A022A3493A8005C235A /* Environment.swift */,
+				3D4F28EE2A34BED10081F9C4 /* Icons.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -222,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				3D4F28CA2A3498CF0081F9C4 /* Info.plist */,
+				3D4F28E62A34BC7B0081F9C4 /* Extensions */,
 				3DC349F92A349221005C235A /* Networking */,
 				3DC349F82A3491EE005C235A /* Helpers */,
 				3DC349F52A3491AE005C235A /* Screens */,
@@ -545,18 +610,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC34A0E2A3494AF005C235A /* KeychainWrapper.swift in Sources */,
+				3D4F28ED2A34BEB60081F9C4 /* Assets.swift in Sources */,
+				3D4F28EF2A34BED10081F9C4 /* Icons.swift in Sources */,
 				3D4F28D22A349ED30081F9C4 /* AppErrors.swift in Sources */,
 				3DD5308029D871F200853761 /* ContentView.swift in Sources */,
 				3DC34A032A3493A8005C235A /* Environment.swift in Sources */,
+				3D4F28DD2A34B8F30081F9C4 /* LoggerLevel.swift in Sources */,
 				3DC34A082A3493F3005C235A /* LocalStored.swift in Sources */,
 				3D4F28D62A349F6E0081F9C4 /* APIVersion.swift in Sources */,
 				3DC349FB2A349305005C235A /* BaseNetworking.swift in Sources */,
+				3D4F28E52A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift in Sources */,
 				3D4F28D02A349E7F0081F9C4 /* HttpRequest.swift in Sources */,
+				3D4F28E32A34BA6B0081F9C4 /* DateFormatManager.swift in Sources */,
 				3DD5307E29D871F200853761 /* TravelApp.swift in Sources */,
+				3D4F28EC2A34BEB60081F9C4 /* Strings.swift in Sources */,
 				3DC34A0A2A349430005C235A /* KeychainRepository.swift in Sources */,
+				3D4F28F22A35119C0081F9C4 /* Data+JSON.swift in Sources */,
+				3D4F28DB2A34B8B00081F9C4 /* Logger.swift in Sources */,
 				3D4F28CE2A349E710081F9C4 /* HttpClient.swift in Sources */,
 				3D4F28D42A349F0A0081F9C4 /* HttpMethod.swift in Sources */,
+				3D4F28DF2A34B9180081F9C4 /* LoggerModule.swift in Sources */,
 				3DC34A0C2A349487005C235A /* KeychainKeysNames.swift in Sources */,
+				3D4F28E82A34BC890081F9C4 /* Array+Extension.swift in Sources */,
+				3D4F28E12A34BA380081F9C4 /* LoggerItem.swift in Sources */,
 				3DC34A062A3493E2005C235A /* KeychainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

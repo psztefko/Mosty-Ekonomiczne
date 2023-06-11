@@ -14,13 +14,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-//            Text(Strings.App.title)
-            Text(Environment.configuration.serverUrlHost)
+            Button("save") {
+                Environment.saveConfiguration(configuration: .localConfig)
+            }
         }
         .task {
             do {
-                let a = try await viewModel.fetch()
-                print(a)
+                _ = try await viewModel.fetch()
             } catch {
                 print(error)
             }
@@ -37,12 +37,10 @@ struct ContentView_Previews: PreviewProvider {
 
 final class TestViewModel: BaseNetworking, ObservableObject {
     let httpClient = HttpClientImpl.shared
-    func fetch() async throws -> Responseing {
+    func fetch() async throws -> EmptyData {
         
         let request = HttpRequest(url: getBaseUrlWithVersion(.blank, with: .home),
                                   method: .get)
         return try await perform(request)
-//        let response: EmptyData = try await httpClient.perform(httpRequest: request)
-//        return response
     }
 }

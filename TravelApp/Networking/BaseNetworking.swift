@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 enum UrlFeaturePath: String {
-    case home = "/authentication"
+    case home = "/users"
 }
 
 class BaseNetworking {
@@ -31,7 +31,7 @@ class BaseNetworking {
 
     func perform<T: Codable>(_ request: HttpRequest) async throws -> T {
         do {
-            return try await manager.perform(httpRequest: request)
+            return try await manager.perform(request)
         } catch {
             throw error
         }

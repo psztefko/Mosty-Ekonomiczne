@@ -33,18 +33,18 @@
 #       output: XCAssets+Generated.swift
 
 strings:
-  inputs: SwiftUITemplate/Localizations/en.lproj
+  inputs: TravelApp/Localizations/en.lproj
   outputs:
-    templatePath: SwiftUITemplate/SwiftGen/Templates/Strings.stencil
-    output: SwiftUITemplate/SwiftGen/Generated/Strings.swift
+    templatePath: TravelApp/SwiftGen/Templates/Strings.stencil
+    output: TravelApp/SwiftGen/Generated/Strings.swift
     params:
       enumName: Strings
 
 xcassets:
-  inputs: SwiftUITemplate/Resources/.
+  inputs: TravelApp/Resources/.
   outputs:
-    templatePath: SwiftUITemplate/SwiftGen/Templates/Assets.stencil
-    output: SwiftUITemplate/SwiftGen/Generated/Assets.swift
+    templatePath: TravelApp/SwiftGen/Templates/Assets.stencil
+    output: TravelApp/SwiftGen/Generated/Assets.swift
 
 ## Generate constants for your storyboards and XIBs.
 ##   This one generates 2 output files, one containing the storyboard scenes, and another for the segues.

@@ -18,9 +18,9 @@ struct Configuration: Codable {
 }
 
 extension Configuration {
-    static let localConfig = Configuration(name: "INT",
-                                         serverUrlProtocol: "https",
-                                         serverUrlHost: "api.int.travelapp.com")
+    static let localConfig = Configuration(name: "LOCAL",
+                                         serverUrlProtocol: "http",
+                                         serverUrlHost: "127.0.0.1:3000")
     static let debugConfig = Configuration(name: "INT",
                                          serverUrlProtocol: "https",
                                          serverUrlHost: "api.int.travelapp.com")
@@ -49,12 +49,13 @@ private extension Environment {
                                           fileManager: FileManager = FileManager()) -> Configuration {
 
         if let customConfiguration = keychainManager.configuration {
-            debugPrint("Loaded custom configuration: \(customConfiguration)")
+            log(.info, .configuration, "Loaded custom configuration: \(customConfiguration)")
             return customConfiguration
         }
 
         do {
             guard let defaultConfigurationFilePathUrl = Bundle.main.url(forResource: "default", withExtension: "json") else {
+                log(.error, .configuration, "configuration missing")
                 throw EnvironmentError.defaultConfigurationFileMissing
             }
             let defaultConfigurationFileContent = try Data(contentsOf: defaultConfigurationFilePathUrl)

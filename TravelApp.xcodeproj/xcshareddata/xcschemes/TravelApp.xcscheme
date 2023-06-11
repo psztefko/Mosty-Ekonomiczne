@@ -93,7 +93,7 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "--package-path /path/to/your/package"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>

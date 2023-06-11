@@ -8,6 +8,7 @@
 import Foundation
 
 enum AppErrors: Error {
+    case invalidURL
     case httpError
     case urlError
     case imageError
