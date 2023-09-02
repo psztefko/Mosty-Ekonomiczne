@@ -16,4 +16,5 @@ enum AppErrors: Error {
     case missingName
     case missingSessionId
     case missingAccountId
+    case apiError(code: Int, data: Data?)
 }

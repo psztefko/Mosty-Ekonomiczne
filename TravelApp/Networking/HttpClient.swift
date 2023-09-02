@@ -74,7 +74,7 @@ final class HttpClientImpl: HttpClient {
 
 struct EmptyData: Codable {}
 
-struct Responseing: Codable {
+struct TestResponse: Codable {
     let success: Bool
     let statusCode: Int
     let statusMessage: String

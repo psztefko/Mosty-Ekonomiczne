@@ -26,7 +26,7 @@ extension Configuration {
                                          serverUrlHost: "api.int.travelapp.com")
     static let prodConfig = Configuration(name: "PROD",
                                           serverUrlProtocol: "https",
-                                          serverUrlHost: "api.int.travelapp.com")
+                                          serverUrlHost: "api.prod.travelapp.com")
 }
 
 enum Environment {

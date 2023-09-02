@@ -7,4 +7,4 @@
 
 import Foundation
 
-typealias Icons = Asset
+typealias Icons = Asset.Icons

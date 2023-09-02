@@ -6,6 +6,7 @@ target 'TravelApp' do
   use_frameworks!
 
   # Pods for TravelApp
+  pod 'SDWebImageSwiftUI'
 
   target 'TravelAppTests' do
     inherit! :search_paths
