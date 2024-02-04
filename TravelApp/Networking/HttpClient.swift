@@ -26,7 +26,7 @@ final class HttpClientImpl: HttpClient {
 
     func perform<T: Decodable>(_ request: HttpRequest) async throws -> T {
         guard var components = URLComponents(string: request.url) else {
-            throw AppErrors.invalidURL
+            throw AppError.invalidURL
         }
         
         if request.method == .get && request.body == nil {
@@ -37,7 +37,7 @@ final class HttpClientImpl: HttpClient {
         }
 
         guard let url = components.url else {
-            throw AppErrors.httpError
+            throw AppError.httpError
         }
 
         var urlRequest = URLRequest(url: url)
@@ -51,7 +51,7 @@ final class HttpClientImpl: HttpClient {
 
         guard let response = response as? HTTPURLResponse,
               response.statusCode >= 200 && response.statusCode < 300 else {
-            throw AppErrors.httpError
+            throw AppError.httpError
         }
 
         let result = try JSONDecoder().decode(T.self, from: data)
@@ -60,13 +60,13 @@ final class HttpClientImpl: HttpClient {
 
     func perform(imagePath: String) async throws -> Data {
         guard let url = URL(string: imagePath) else {
-            throw AppErrors.urlError
+            throw AppError.urlError
         }
         let request = URLRequest(url: url)
         let (data, response) = try await urlSesion.data(for: request)
         guard let response = response as? HTTPURLResponse,
               response.statusCode >= 200 && response.statusCode < 300 else {
-            throw AppErrors.httpError
+            throw AppError.httpError
         }
         return data
     }

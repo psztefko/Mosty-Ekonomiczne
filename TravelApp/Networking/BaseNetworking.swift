@@ -9,9 +9,7 @@ import Foundation
 import Combine
 
 enum UrlFeaturePath: String {
-    case home = "/users"
-    case user = "/user"
-    case place = "/places"
+    case product = "/product"
 }
 
 class BaseNetworking {
@@ -35,6 +33,7 @@ class BaseNetworking {
         do {
             return try await manager.perform(request)
         } catch {
+            log(.error, .network, error.localizedDescription)
             throw error
         }
     }

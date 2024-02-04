@@ -11,6 +11,7 @@ enum APIVersion {
     case blank
     case v1
     case v2
+    case v3
     
     var path: String {
         switch self {
@@ -20,6 +21,8 @@ enum APIVersion {
             return "/v1"
         case .v2:
             return "/v2"
+        case .v3:
+            return "/v3"
         }
     }
 }

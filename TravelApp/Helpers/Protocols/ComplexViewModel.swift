@@ -100,6 +100,49 @@ extension ComplexViewModel {
             await hideAllErrorsWithAnimation()
         }
     }
+    
+    @MainActor func apiFunction<ResponseData, RequestData>(data: RequestData,
+                                                           on dataType: DataType,
+                                                           with method: (RequestData) async throws -> ResponseData,
+                                                           stopLoadingWhenCanceled: Bool = true,
+                                                           successAction: (@MainActor (_ data: ResponseData) async -> Void)? = nil,
+                                                           onFailure: (@MainActor () async -> Void)? = nil) async {
+        setLoadingState(true, for: dataType)
+        var stopLoading = true
+        do {
+            let response = try await method(data)
+            if let successAction = successAction {
+                await successAction(response)
+            }
+        } catch let AppError.apiError(_, data) {
+            handleError(data?.getErrorMessage(), type: dataType)
+            if let onFailure = onFailure {
+                await onFailure()
+            }
+        } catch let error as URLError {
+            if error.code != URLError.Code.cancelled {
+                handleError(nil, type: dataType)
+            } else {
+                stopLoading = false
+            }
+            if let onFailure = onFailure {
+                await onFailure()
+            }
+        } catch {
+            handleError(nil, type: dataType)
+            if let onFailure = onFailure {
+                await onFailure()
+            }
+        }
+        
+        if stopLoadingWhenCanceled {
+            setLoadingState(false, for: dataType)
+        } else {
+            if stopLoading {
+                setLoadingState(false, for: dataType)
+            }
+        }
+    }
 }
 
 private extension ComplexViewModel {

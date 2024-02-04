@@ -13,7 +13,7 @@ protocol UserCacheService {
 
 final class UserCacheServiceImpl: BaseNetworking, UserCacheService {
     func getUser() async throws -> User {
-        let request = HttpRequest(url: getBaseUrlWithVersion(.blank, with: .user),
+        let request = HttpRequest(url: getBaseUrlWithVersion(.blank, with: .product),
                                   method: .get)
         return try await perform(request)
     }

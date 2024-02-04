@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AppErrors: Error {
+enum AppError: Error {
     case invalidURL
     case httpError
     case urlError

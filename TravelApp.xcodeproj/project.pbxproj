@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1DAB64DDBDB572B3AF91056B /* Pods_TravelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73291DB277352B3EA03E3F14 /* Pods_TravelApp.framework */; };
 		218BF7CA2D39B729D58C0E1D /* Pods_TravelApp_TravelAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD3811665A1C682688783 /* Pods_TravelApp_TravelAppUITests.framework */; };
-		3D11BAFB2A35E1AB004B9A37 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BAFA2A35E1AB004B9A37 /* DashboardViewModel.swift */; };
-		3D11BAFD2A35E1C2004B9A37 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BAFC2A35E1C2004B9A37 /* DashboardScreen.swift */; };
 		3D11BB002A35E215004B9A37 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BAFF2A35E215004B9A37 /* BaseViewModel.swift */; };
 		3D11BB022A35E238004B9A37 /* DefaultSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB012A35E238004B9A37 /* DefaultSpringAnimation.swift */; };
 		3D11BB042A35E2FB004B9A37 /* ComplexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB032A35E2FB004B9A37 /* ComplexViewModel.swift */; };
@@ -26,7 +24,6 @@
 		3D11BB1C2A361910004B9A37 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D11BB1B2A361910004B9A37 /* Icons.xcassets */; };
 		3D11BB402A3E0833004B9A37 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB3F2A3E0833004B9A37 /* TrackableScrollView.swift */; };
 		3D11BB422A3E085A004B9A37 /* FrameGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB412A3E085A004B9A37 /* FrameGetter.swift */; };
-		3D11BB482A3E098B004B9A37 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB472A3E098B004B9A37 /* DashboardService.swift */; };
 		3D11BB4C2A3E0C38004B9A37 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB4B2A3E0C38004B9A37 /* String+Emoji.swift */; };
 		3D11BB552A3E2EFC004B9A37 /* OnAppearWithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB542A3E2EFC004B9A37 /* OnAppearWithDelay.swift */; };
 		3D11BB572A3E2F28004B9A37 /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */; };
@@ -94,8 +91,6 @@
 
 /* Begin PBXFileReference section */
 		25B3A34A7C811470684832FB /* Pods_TravelAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D11BAFA2A35E1AB004B9A37 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
-		3D11BAFC2A35E1C2004B9A37 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
 		3D11BAFF2A35E215004B9A37 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		3D11BB012A35E238004B9A37 /* DefaultSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSpringAnimation.swift; sourceTree = "<group>"; };
 		3D11BB032A35E2FB004B9A37 /* ComplexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexViewModel.swift; sourceTree = "<group>"; };
@@ -111,7 +106,6 @@
 		3D11BB1B2A361910004B9A37 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		3D11BB3F2A3E0833004B9A37 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		3D11BB412A3E085A004B9A37 /* FrameGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameGetter.swift; sourceTree = "<group>"; };
-		3D11BB472A3E098B004B9A37 /* DashboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
 		3D11BB4B2A3E0C38004B9A37 /* String+Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
 		3D11BB542A3E2EFC004B9A37 /* OnAppearWithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearWithDelay.swift; sourceTree = "<group>"; };
 		3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAction.swift; sourceTree = "<group>"; };
@@ -196,24 +190,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D11BAF82A35E196004B9A37 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				3D11BAF92A35E1A0004B9A37 /* Dashboard */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		3D11BAF92A35E1A0004B9A37 /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				3D11BB462A3E097C004B9A37 /* Service */,
-				3D11BAFA2A35E1AB004B9A37 /* DashboardViewModel.swift */,
-				3D11BAFC2A35E1C2004B9A37 /* DashboardScreen.swift */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
 		3D11BAFE2A35E20A004B9A37 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,14 +244,6 @@
 				3D11BB412A3E085A004B9A37 /* FrameGetter.swift */,
 			);
 			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		3D11BB462A3E097C004B9A37 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				3D11BB472A3E098B004B9A37 /* DashboardService.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		3D4F28D92A34B8A30081F9C4 /* Logger */ = {
@@ -411,7 +379,6 @@
 				3DC349F82A3491EE005C235A /* Helpers */,
 				3D11BB0B2A35E506004B9A37 /* Shared */,
 				3D11BB182A3617FE004B9A37 /* SharedUI */,
-				3D11BAF82A35E196004B9A37 /* Screens */,
 				3DD530AB29D8726400853761 /* Configuration */,
 				3DD530AA29D8725900853761 /* Localizations */,
 				3DC349EF2A34909A005C235A /* SwiftGen */,
@@ -778,13 +745,10 @@
 				3D11BB402A3E0833004B9A37 /* TrackableScrollView.swift in Sources */,
 				3DC34A032A3493A8005C235A /* Environment.swift in Sources */,
 				3D11BB082A35E3CE004B9A37 /* Data+ErrorMessage.swift in Sources */,
-				3D11BAFB2A35E1AB004B9A37 /* DashboardViewModel.swift in Sources */,
-				3D11BB482A3E098B004B9A37 /* DashboardService.swift in Sources */,
 				3DA14EDF2AA3628B0055B7ED /* AppDivider.swift in Sources */,
 				3D11BB062A35E318004B9A37 /* ComplexViewModelData.swift in Sources */,
 				3D11BB572A3E2F28004B9A37 /* SimpleAction.swift in Sources */,
 				3D4F28DD2A34B8F30081F9C4 /* LoggerLevel.swift in Sources */,
-				3D11BAFD2A35E1C2004B9A37 /* DashboardScreen.swift in Sources */,
 				3DC34A082A3493F3005C235A /* LocalStored.swift in Sources */,
 				3D4F28D62A349F6E0081F9C4 /* APIVersion.swift in Sources */,
 				3DC349FB2A349305005C235A /* BaseNetworking.swift in Sources */,
@@ -987,16 +951,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TravelApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 7HUC4265N2;
+				DEVELOPMENT_TEAM = 3TUZXXZK2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Aplikacja chce używać aparatu do skanowania kodów produktu";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1019,16 +985,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TravelApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 7HUC4265N2;
+				DEVELOPMENT_TEAM = 3TUZXXZK2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Aplikacja chce używać aparatu do skanowania kodów produktu";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

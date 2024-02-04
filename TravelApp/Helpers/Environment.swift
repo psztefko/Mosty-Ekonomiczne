@@ -23,7 +23,7 @@ extension Configuration {
                                          serverUrlHost: "127.0.0.1:3000")
     static let debugConfig = Configuration(name: "INT",
                                          serverUrlProtocol: "https",
-                                         serverUrlHost: "api.int.travelapp.com")
+                                         serverUrlHost: "world.openfoodfacts.net/api")
     static let prodConfig = Configuration(name: "PROD",
                                           serverUrlProtocol: "https",
                                           serverUrlHost: "api.prod.travelapp.com")
@@ -32,7 +32,7 @@ extension Configuration {
 enum Environment {
 
     static var configuration: Configuration = {
-        return loadConfiguration()
+        return .debugConfig
     }()
 
     static func saveConfiguration(configuration: Configuration?, keychainManager: KeychainManager = KeychainManager()) {
