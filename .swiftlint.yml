@@ -1,5 +1,5 @@
 included:
-  - TravelApp
+  - MostyEkonomiczne
 
 disabled_rules: # rule identifiers turned on by default to exclude from running
   - multiple_closures_with_trailing_closure
@@ -31,7 +31,7 @@ type_name:
 excluded:
   - Pods
   - Templates
-  - TravelApp*/*.generated.swift
+  - MostyEkonomiczne*/*.generated.swift
   - rename.swift
 
 identifier_name:

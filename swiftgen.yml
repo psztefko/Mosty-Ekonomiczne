@@ -33,18 +33,18 @@
 #       output: XCAssets+Generated.swift
 
 strings:
-  inputs: TravelApp/Localizations/en.lproj
+  inputs: MostyEkonomiczne/Localizations/en.lproj
   outputs:
-    templatePath: TravelApp/SwiftGen/Templates/Strings.stencil
-    output: TravelApp/SwiftGen/Generated/Strings.swift
+    templatePath: MostyEkonomiczne/SwiftGen/Templates/Strings.stencil
+    output: MostyEkonomiczne/SwiftGen/Generated/Strings.swift
     params:
       enumName: Strings
 
 xcassets:
-  inputs: TravelApp/Resources/.
+  inputs: MostyEkonomiczne/Resources/.
   outputs:
-    templatePath: TravelApp/SwiftGen/Templates/Assets.stencil
-    output: TravelApp/SwiftGen/Generated/Assets.swift
+    templatePath: MostyEkonomiczne/SwiftGen/Templates/Assets.stencil
+    output: MostyEkonomiczne/SwiftGen/Generated/Assets.swift
 
 ## Generate constants for your storyboards and XIBs.
 ##   This one generates 2 output files, one containing the storyboard scenes, and another for the segues.
