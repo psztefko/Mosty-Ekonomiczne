@@ -6,7 +6,7 @@ export PATH="$PATH:/opt/homebrew/bin"
 pwd
 
 
-mkdir TravelApp/SwiftGen/Generated
+mkdir MostyEkonomiczne/SwiftGen/Generated
 
 if which swiftgen > /dev/null; then
     swiftgen
