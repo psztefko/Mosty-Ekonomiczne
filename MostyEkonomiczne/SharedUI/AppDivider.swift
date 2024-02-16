@@ -27,7 +27,7 @@ struct AppDivider: View {
             .frame(maxWidth: .infinity)
             .frame(height: 1)
             .padding(.leading, leadingPadding)
-            .foregroundColor(showingError ? .red : Colors.Background.secondary)
+            .foregroundColor(showingError ? .red : Colors.Background.secondary.color)
     }
 }
 

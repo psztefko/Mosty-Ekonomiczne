@@ -31,6 +31,9 @@
 		3D11BB552A3E2EFC004B9A37 /* OnAppearWithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB542A3E2EFC004B9A37 /* OnAppearWithDelay.swift */; };
 		3D11BB572A3E2F28004B9A37 /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */; };
 		3D11BB662A3F4A01004B9A37 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB652A3F4A01004B9A37 /* CloseButton.swift */; };
+		3D2FAD092B7F9AD300BE76DD /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FAD052B7F9AD300BE76DD /* Strings.swift */; };
+		3D2FAD0A2B7F9AD300BE76DD /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FAD062B7F9AD300BE76DD /* Assets.swift */; };
+		3D2FAD0B2B7F9AD300BE76DD /* Assets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3D2FAD082B7F9AD300BE76DD /* Assets.stencil */; };
 		3D4F28CE2A349E710081F9C4 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28CD2A349E710081F9C4 /* HttpClient.swift */; };
 		3D4F28D02A349E7F0081F9C4 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28CF2A349E7F0081F9C4 /* HttpRequest.swift */; };
 		3D4F28D22A349ED30081F9C4 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28D12A349ED30081F9C4 /* AppErrors.swift */; };
@@ -43,13 +46,10 @@
 		3D4F28E32A34BA6B0081F9C4 /* DateFormatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E22A34BA6B0081F9C4 /* DateFormatManager.swift */; };
 		3D4F28E52A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E42A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift */; };
 		3D4F28E82A34BC890081F9C4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28E72A34BC890081F9C4 /* Array+Extension.swift */; };
-		3D4F28EC2A34BEB60081F9C4 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28EA2A34BEB60081F9C4 /* Strings.swift */; };
-		3D4F28ED2A34BEB60081F9C4 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28EB2A34BEB60081F9C4 /* Assets.swift */; };
 		3D4F28EF2A34BED10081F9C4 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28EE2A34BED10081F9C4 /* Icons.swift */; };
 		3D4F28F22A35119C0081F9C4 /* Data+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28F12A35119C0081F9C4 /* Data+JSON.swift */; };
 		3DA14EDF2AA3628B0055B7ED /* AppDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA14EDE2AA3628B0055B7ED /* AppDivider.swift */; };
 		3DA14EE12AA362BD0055B7ED /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA14EE02AA362BD0055B7ED /* Colors.swift */; };
-		3DC349F32A34909A005C235A /* Assets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3DC349F12A34909A005C235A /* Assets.stencil */; };
 		3DC349FB2A349305005C235A /* BaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC349FA2A349305005C235A /* BaseNetworking.swift */; };
 		3DC34A012A349379005C235A /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DC34A002A349379005C235A /* default.json */; };
 		3DC34A032A3493A8005C235A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC34A022A3493A8005C235A /* Environment.swift */; };
@@ -116,6 +116,9 @@
 		3D11BB542A3E2EFC004B9A37 /* OnAppearWithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearWithDelay.swift; sourceTree = "<group>"; };
 		3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAction.swift; sourceTree = "<group>"; };
 		3D11BB652A3F4A01004B9A37 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		3D2FAD052B7F9AD300BE76DD /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		3D2FAD062B7F9AD300BE76DD /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		3D2FAD082B7F9AD300BE76DD /* Assets.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assets.stencil; sourceTree = "<group>"; };
 		3D4F28CA2A3498CF0081F9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3D4F28CD2A349E710081F9C4 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		3D4F28CF2A349E7F0081F9C4 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
@@ -129,13 +132,10 @@
 		3D4F28E22A34BA6B0081F9C4 /* DateFormatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatManager.swift; sourceTree = "<group>"; };
 		3D4F28E42A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerConsoleItemConsumer.swift; sourceTree = "<group>"; };
 		3D4F28E72A34BC890081F9C4 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		3D4F28EA2A34BEB60081F9C4 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		3D4F28EB2A34BEB60081F9C4 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		3D4F28EE2A34BED10081F9C4 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		3D4F28F12A35119C0081F9C4 /* Data+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSON.swift"; sourceTree = "<group>"; };
 		3DA14EDE2AA3628B0055B7ED /* AppDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDivider.swift; sourceTree = "<group>"; };
 		3DA14EE02AA362BD0055B7ED /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		3DC349F12A34909A005C235A /* Assets.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assets.stencil; sourceTree = "<group>"; };
 		3DC349FA2A349305005C235A /* BaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworking.swift; sourceTree = "<group>"; };
 		3DC34A002A349379005C235A /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = default.json; path = MostyEkonomiczne/default.json; sourceTree = SOURCE_ROOT; };
 		3DC34A022A3493A8005C235A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -278,6 +278,32 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		3D2FAD032B7F9AD300BE76DD /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FAD042B7F9AD300BE76DD /* Generated */,
+				3D2FAD072B7F9AD300BE76DD /* Templates */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		3D2FAD042B7F9AD300BE76DD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FAD052B7F9AD300BE76DD /* Strings.swift */,
+				3D2FAD062B7F9AD300BE76DD /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		3D2FAD072B7F9AD300BE76DD /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FAD082B7F9AD300BE76DD /* Assets.stencil */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
 		3D4F28D92A34B8A30081F9C4 /* Logger */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,15 +328,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		3D4F28E92A34BEB60081F9C4 /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				3D4F28EA2A34BEB60081F9C4 /* Strings.swift */,
-				3D4F28EB2A34BEB60081F9C4 /* Assets.swift */,
-			);
-			path = Generated;
-			sourceTree = "<group>";
-		};
 		3D4F28F02A3511890081F9C4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,23 +336,6 @@
 				3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */,
 			);
 			path = Foundation;
-			sourceTree = "<group>";
-		};
-		3DC349EF2A34909A005C235A /* SwiftGen */ = {
-			isa = PBXGroup;
-			children = (
-				3D4F28E92A34BEB60081F9C4 /* Generated */,
-				3DC349F02A34909A005C235A /* Templates */,
-			);
-			path = SwiftGen;
-			sourceTree = "<group>";
-		};
-		3DC349F02A34909A005C235A /* Templates */ = {
-			isa = PBXGroup;
-			children = (
-				3DC349F12A34909A005C235A /* Assets.stencil */,
-			);
-			path = Templates;
 			sourceTree = "<group>";
 		};
 		3DC349F82A3491EE005C235A /* Helpers */ = {
@@ -414,7 +414,7 @@
 				3D11BAF82A35E196004B9A37 /* Screens */,
 				3DD530AB29D8726400853761 /* Configuration */,
 				3DD530AA29D8725900853761 /* Localizations */,
-				3DC349EF2A34909A005C235A /* SwiftGen */,
+				3D2FAD032B7F9AD300BE76DD /* SwiftGen */,
 				3DD530A829D8720E00853761 /* Resources */,
 				3DD5307D29D871F200853761 /* MostyEkonomiczne.swift */,
 				3DD5308329D871F300853761 /* Preview Content */,
@@ -615,9 +615,9 @@
 				3DD530B129D8740200853761 /* Localizable.strings in Resources */,
 				3DC34A012A349379005C235A /* default.json in Resources */,
 				3D11BB1C2A361910004B9A37 /* Icons.xcassets in Resources */,
+				3D2FAD0B2B7F9AD300BE76DD /* Assets.stencil in Resources */,
 				3DD530AD29D8734500853761 /* prebuild.sh in Resources */,
 				3DD530CC29D8782A00853761 /* .swiftlint.yml in Resources */,
-				3DC349F32A34909A005C235A /* Assets.stencil in Resources */,
 				3DD5308229D871F300853761 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -790,7 +790,6 @@
 				3D11BB142A35E799004B9A37 /* UserCache.swift in Sources */,
 				3D11BB1A2A361813004B9A37 /* CustomWebImage.swift in Sources */,
 				3D11BB4C2A3E0C38004B9A37 /* String+Emoji.swift in Sources */,
-				3D4F28ED2A34BEB60081F9C4 /* Assets.swift in Sources */,
 				3D4F28EF2A34BED10081F9C4 /* Icons.swift in Sources */,
 				3D4F28D22A349ED30081F9C4 /* AppErrors.swift in Sources */,
 				3D11BB0A2A35E458004B9A37 /* JSON+Decoder.swift in Sources */,
@@ -809,12 +808,12 @@
 				3DC349FB2A349305005C235A /* BaseNetworking.swift in Sources */,
 				3D11BB422A3E085A004B9A37 /* FrameGetter.swift in Sources */,
 				3D4F28E52A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift in Sources */,
+				3D2FAD092B7F9AD300BE76DD /* Strings.swift in Sources */,
 				3D11BB022A35E238004B9A37 /* DefaultSpringAnimation.swift in Sources */,
 				3DA14EE12AA362BD0055B7ED /* Colors.swift in Sources */,
 				3D4F28D02A349E7F0081F9C4 /* HttpRequest.swift in Sources */,
 				3D4F28E32A34BA6B0081F9C4 /* DateFormatManager.swift in Sources */,
 				3DD5307E29D871F200853761 /* MostyEkonomiczne.swift in Sources */,
-				3D4F28EC2A34BEB60081F9C4 /* Strings.swift in Sources */,
 				3D11BB552A3E2EFC004B9A37 /* OnAppearWithDelay.swift in Sources */,
 				3D11BB002A35E215004B9A37 /* BaseViewModel.swift in Sources */,
 				3D11BB042A35E2FB004B9A37 /* ComplexViewModel.swift in Sources */,
@@ -833,6 +832,7 @@
 				3D11BB172A35E7FE004B9A37 /* UserCacheService.swift in Sources */,
 				3D4F28E12A34BA380081F9C4 /* LoggerItem.swift in Sources */,
 				3DC34A062A3493E2005C235A /* KeychainManager.swift in Sources */,
+				3D2FAD0A2B7F9AD300BE76DD /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
