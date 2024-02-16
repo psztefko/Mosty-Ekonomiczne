@@ -506,6 +506,7 @@
 			buildConfigurationList = 3DD5309E29D871F300853761 /* Build configuration list for PBXNativeTarget "MostyEkonomiczne" */;
 			buildPhases = (
 				EF813604A0682E113539DAF7 /* [CP] Check Pods Manifest.lock */,
+				188CD3D62B7F606900B1BD25 /* SwiftGen */,
 				3DD5307629D871F200853761 /* Sources */,
 				3DD5307729D871F200853761 /* Frameworks */,
 				3DD5307829D871F200853761 /* Resources */,
@@ -642,6 +643,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		188CD3D62B7F606900B1BD25 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == \"arm64\" ]]; then\n    export PATH=\"/opt/homebrew/bin:${PATH}\"\nfi\n\nmkdir SwiftGen/Generated\n\nif which swiftgen >/dev/null; then\n    swiftgen\nelse\n    echo \"SwiftGen not installed!\"\nfi\n";
+		};
 		28511B6EF65E98092BC792F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
