@@ -59,7 +59,7 @@ struct CustomWebImage: View {
     }
     
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             if viewModel.imageFailed {
                 Image(imageFailedName)
                     .resizable()

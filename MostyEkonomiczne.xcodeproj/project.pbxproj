@@ -31,9 +31,6 @@
 		3D11BB552A3E2EFC004B9A37 /* OnAppearWithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB542A3E2EFC004B9A37 /* OnAppearWithDelay.swift */; };
 		3D11BB572A3E2F28004B9A37 /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */; };
 		3D11BB662A3F4A01004B9A37 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11BB652A3F4A01004B9A37 /* CloseButton.swift */; };
-		3D2FAD092B7F9AD300BE76DD /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FAD052B7F9AD300BE76DD /* Strings.swift */; };
-		3D2FAD0A2B7F9AD300BE76DD /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FAD062B7F9AD300BE76DD /* Assets.swift */; };
-		3D2FAD0B2B7F9AD300BE76DD /* Assets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 3D2FAD082B7F9AD300BE76DD /* Assets.stencil */; };
 		3D4F28CE2A349E710081F9C4 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28CD2A349E710081F9C4 /* HttpClient.swift */; };
 		3D4F28D02A349E7F0081F9C4 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28CF2A349E7F0081F9C4 /* HttpRequest.swift */; };
 		3D4F28D22A349ED30081F9C4 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F28D12A349ED30081F9C4 /* AppErrors.swift */; };
@@ -72,6 +69,17 @@
 		3DD530D029D8783B00853761 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3DD530CF29D8783B00853761 /* .gitignore */; };
 		3DD530D129D8783B00853761 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3DD530CF29D8783B00853761 /* .gitignore */; };
 		3DD530D229D8783B00853761 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3DD530CF29D8783B00853761 /* .gitignore */; };
+		3DECB5682B8BCCE900778BDD /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5662B8BCCE900778BDD /* Assets+Generated.swift */; };
+		3DECB5692B8BCCE900778BDD /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5672B8BCCE900778BDD /* Strings+Generated.swift */; };
+		3DECB56C2B8BCE2100778BDD /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB56B2B8BCE2100778BDD /* ProfileScreen.swift */; };
+		3DECB56E2B8BCE4B00778BDD /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB56D2B8BCE4B00778BDD /* BackButton.swift */; };
+		3DECB5712B8BD11B00778BDD /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5702B8BD11B00778BDD /* UserProfile.swift */; };
+		3DECB5732B8BD12400778BDD /* ContactMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5722B8BD12400778BDD /* ContactMedia.swift */; };
+		3DECB5752B8BD12C00778BDD /* ContactMediaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5742B8BD12C00778BDD /* ContactMediaIcon.swift */; };
+		3DECB5772B8BD13400778BDD /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5762B8BD13400778BDD /* UserRole.swift */; };
+		3DECB5792B8BD69600778BDD /* RoleBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB5782B8BD69600778BDD /* RoleBadge.swift */; };
+		3DECB57B2B8BDC3700778BDD /* UserContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB57A2B8BDC3700778BDD /* UserContactView.swift */; };
+		3DECB57D2B8BDC8C00778BDD /* UserProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECB57C2B8BDC8C00778BDD /* UserProfileImageView.swift */; };
 		F46B9DA413A7EF758EAEB10E /* Pods_MostyEkonomiczneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B3A34A7C811470684832FB /* Pods_MostyEkonomiczneTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,9 +124,6 @@
 		3D11BB542A3E2EFC004B9A37 /* OnAppearWithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearWithDelay.swift; sourceTree = "<group>"; };
 		3D11BB562A3E2F28004B9A37 /* SimpleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAction.swift; sourceTree = "<group>"; };
 		3D11BB652A3F4A01004B9A37 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
-		3D2FAD052B7F9AD300BE76DD /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		3D2FAD062B7F9AD300BE76DD /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
-		3D2FAD082B7F9AD300BE76DD /* Assets.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assets.stencil; sourceTree = "<group>"; };
 		3D4F28CA2A3498CF0081F9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3D4F28CD2A349E710081F9C4 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		3D4F28CF2A349E7F0081F9C4 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
@@ -158,6 +163,17 @@
 		3DD530B429D8741200853761 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3DD530CB29D8782A00853761 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		3DD530CF29D8783B00853761 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		3DECB5662B8BCCE900778BDD /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
+		3DECB5672B8BCCE900778BDD /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		3DECB56B2B8BCE2100778BDD /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		3DECB56D2B8BCE4B00778BDD /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		3DECB5702B8BD11B00778BDD /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		3DECB5722B8BD12400778BDD /* ContactMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMedia.swift; sourceTree = "<group>"; };
+		3DECB5742B8BD12C00778BDD /* ContactMediaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMediaIcon.swift; sourceTree = "<group>"; };
+		3DECB5762B8BD13400778BDD /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		3DECB5782B8BD69600778BDD /* RoleBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleBadge.swift; sourceTree = "<group>"; };
+		3DECB57A2B8BDC3700778BDD /* UserContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContactView.swift; sourceTree = "<group>"; };
+		3DECB57C2B8BDC8C00778BDD /* UserProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageView.swift; sourceTree = "<group>"; };
 		4574EFC1EDB053A156E2A18C /* Pods-MostyEkonomiczne-MostyEkonomiczneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MostyEkonomiczne-MostyEkonomiczneUITests.release.xcconfig"; path = "Target Support Files/Pods-MostyEkonomiczne-MostyEkonomiczneUITests/Pods-MostyEkonomiczne-MostyEkonomiczneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6AF8324466EA8E46C0024D2F /* Pods-MostyEkonomiczne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MostyEkonomiczne.debug.xcconfig"; path = "Target Support Files/Pods-MostyEkonomiczne/Pods-MostyEkonomiczne.debug.xcconfig"; sourceTree = "<group>"; };
 		73291DB277352B3EA03E3F14 /* Pods_MostyEkonomiczne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MostyEkonomiczne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +215,7 @@
 		3D11BAF82A35E196004B9A37 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				3DECB56A2B8BCE1400778BDD /* Profile */,
 				3D11BAF92A35E1A0004B9A37 /* Dashboard */,
 			);
 			path = Screens;
@@ -257,6 +274,10 @@
 				3D11BB192A361813004B9A37 /* CustomWebImage.swift */,
 				3D11BB652A3F4A01004B9A37 /* CloseButton.swift */,
 				3DA14EDE2AA3628B0055B7ED /* AppDivider.swift */,
+				3DECB56D2B8BCE4B00778BDD /* BackButton.swift */,
+				3DECB5782B8BD69600778BDD /* RoleBadge.swift */,
+				3DECB57A2B8BDC3700778BDD /* UserContactView.swift */,
+				3DECB57C2B8BDC8C00778BDD /* UserProfileImageView.swift */,
 			);
 			path = SharedUI;
 			sourceTree = "<group>";
@@ -282,7 +303,6 @@
 			isa = PBXGroup;
 			children = (
 				3D2FAD042B7F9AD300BE76DD /* Generated */,
-				3D2FAD072B7F9AD300BE76DD /* Templates */,
 			);
 			path = SwiftGen;
 			sourceTree = "<group>";
@@ -290,18 +310,10 @@
 		3D2FAD042B7F9AD300BE76DD /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				3D2FAD052B7F9AD300BE76DD /* Strings.swift */,
-				3D2FAD062B7F9AD300BE76DD /* Assets.swift */,
+				3DECB5662B8BCCE900778BDD /* Assets+Generated.swift */,
+				3DECB5672B8BCCE900778BDD /* Strings+Generated.swift */,
 			);
 			path = Generated;
-			sourceTree = "<group>";
-		};
-		3D2FAD072B7F9AD300BE76DD /* Templates */ = {
-			isa = PBXGroup;
-			children = (
-				3D2FAD082B7F9AD300BE76DD /* Assets.stencil */,
-			);
-			path = Templates;
 			sourceTree = "<group>";
 		};
 		3D4F28D92A34B8A30081F9C4 /* Logger */ = {
@@ -475,6 +487,26 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		3DECB56A2B8BCE1400778BDD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3DECB56F2B8BD11200778BDD /* Model */,
+				3DECB56B2B8BCE2100778BDD /* ProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3DECB56F2B8BD11200778BDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DECB5702B8BD11B00778BDD /* UserProfile.swift */,
+				3DECB5722B8BD12400778BDD /* ContactMedia.swift */,
+				3DECB5742B8BD12C00778BDD /* ContactMediaIcon.swift */,
+				3DECB5762B8BD13400778BDD /* UserRole.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6F216194FFE583CE4DF2E17D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -615,7 +647,6 @@
 				3DD530B129D8740200853761 /* Localizable.strings in Resources */,
 				3DC34A012A349379005C235A /* default.json in Resources */,
 				3D11BB1C2A361910004B9A37 /* Icons.xcassets in Resources */,
-				3D2FAD0B2B7F9AD300BE76DD /* Assets.stencil in Resources */,
 				3DD530AD29D8734500853761 /* prebuild.sh in Resources */,
 				3DD530CC29D8782A00853761 /* .swiftlint.yml in Resources */,
 				3DD5308229D871F300853761 /* Assets.xcassets in Resources */,
@@ -798,24 +829,33 @@
 				3D11BB082A35E3CE004B9A37 /* Data+ErrorMessage.swift in Sources */,
 				3D11BAFB2A35E1AB004B9A37 /* DashboardViewModel.swift in Sources */,
 				3D11BB482A3E098B004B9A37 /* DashboardService.swift in Sources */,
+				3DECB57B2B8BDC3700778BDD /* UserContactView.swift in Sources */,
+				3DECB56E2B8BCE4B00778BDD /* BackButton.swift in Sources */,
 				3DA14EDF2AA3628B0055B7ED /* AppDivider.swift in Sources */,
 				3D11BB062A35E318004B9A37 /* ComplexViewModelData.swift in Sources */,
+				3DECB5682B8BCCE900778BDD /* Assets+Generated.swift in Sources */,
 				3D11BB572A3E2F28004B9A37 /* SimpleAction.swift in Sources */,
+				3DECB5732B8BD12400778BDD /* ContactMedia.swift in Sources */,
 				3D4F28DD2A34B8F30081F9C4 /* LoggerLevel.swift in Sources */,
+				3DECB5792B8BD69600778BDD /* RoleBadge.swift in Sources */,
 				3D11BAFD2A35E1C2004B9A37 /* DashboardScreen.swift in Sources */,
+				3DECB5692B8BCCE900778BDD /* Strings+Generated.swift in Sources */,
 				3DC34A082A3493F3005C235A /* LocalStored.swift in Sources */,
 				3D4F28D62A349F6E0081F9C4 /* APIVersion.swift in Sources */,
+				3DECB5712B8BD11B00778BDD /* UserProfile.swift in Sources */,
 				3DC349FB2A349305005C235A /* BaseNetworking.swift in Sources */,
 				3D11BB422A3E085A004B9A37 /* FrameGetter.swift in Sources */,
 				3D4F28E52A34BB8F0081F9C4 /* LoggerConsoleItemConsumer.swift in Sources */,
-				3D2FAD092B7F9AD300BE76DD /* Strings.swift in Sources */,
 				3D11BB022A35E238004B9A37 /* DefaultSpringAnimation.swift in Sources */,
 				3DA14EE12AA362BD0055B7ED /* Colors.swift in Sources */,
 				3D4F28D02A349E7F0081F9C4 /* HttpRequest.swift in Sources */,
 				3D4F28E32A34BA6B0081F9C4 /* DateFormatManager.swift in Sources */,
 				3DD5307E29D871F200853761 /* MostyEkonomiczne.swift in Sources */,
 				3D11BB552A3E2EFC004B9A37 /* OnAppearWithDelay.swift in Sources */,
+				3DECB57D2B8BDC8C00778BDD /* UserProfileImageView.swift in Sources */,
 				3D11BB002A35E215004B9A37 /* BaseViewModel.swift in Sources */,
+				3DECB5752B8BD12C00778BDD /* ContactMediaIcon.swift in Sources */,
+				3DECB56C2B8BCE2100778BDD /* ProfileScreen.swift in Sources */,
 				3D11BB042A35E2FB004B9A37 /* ComplexViewModel.swift in Sources */,
 				3DC34A0A2A349430005C235A /* KeychainRepository.swift in Sources */,
 				3D11BB662A3F4A01004B9A37 /* CloseButton.swift in Sources */,
@@ -831,8 +871,8 @@
 				3D4F28E82A34BC890081F9C4 /* Array+Extension.swift in Sources */,
 				3D11BB172A35E7FE004B9A37 /* UserCacheService.swift in Sources */,
 				3D4F28E12A34BA380081F9C4 /* LoggerItem.swift in Sources */,
+				3DECB5772B8BD13400778BDD /* UserRole.swift in Sources */,
 				3DC34A062A3493E2005C235A /* KeychainManager.swift in Sources */,
-				3D2FAD0A2B7F9AD300BE76DD /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
