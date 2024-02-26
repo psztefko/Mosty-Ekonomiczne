@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "location.north.circle.fill_x1.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "location.north.circle.fill_x2.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "location.north.circle.fill_x3.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "North Circle Fill.svg",
+      "idiom" : "universal"
     }
   ],
   "info" : {

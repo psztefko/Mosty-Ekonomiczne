@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "phone_x1.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "phone_x2.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "phone_x3.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "North Circle Fill.svg",
+      "idiom" : "universal"
     }
   ],
   "info" : {
